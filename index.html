@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+
+    <title>My Profile Dashboard</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../side-menu-default/img/New icon img/smalllogo.jpg">
+
+    <!-- Master Stylesheet CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader-area">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Preloader -->
+
+    <!-- ======================================
+    ******* Main Page Wrapper **********
+    ======================================= -->
+
+    <!-- ======================================
+    ******* Page Wrapper Area Start **********
+    ======================================= -->
+    <div class="flapt-page-wrapper">
+        <!-- Sidemenu Area -->
+        <div class="flapt-sidemenu-wrapper">
+            <!-- Desktop Logo -->
+            <div class="flapt-logo">
+                <a href="index.html"><img class="desktop-logo" src="./img/New icon img/longlogo.png" alt="Desktop Logo">
+                    <img class="small-logo" src="./img/New icon img/smalllogo.jpg" alt="Mobile Logo"></a>
+            </div>
+
+            <!-- Side Nav -->
+            <div class="flapt-sidenav" id="flaptSideNav">
+                <!-- Side Menu Area -->
+                <div class="side-menu-area">
+                    <!-- Sidebar Menu -->
+                    <nav>
+                        <ul class="sidebar-menu" data-widget="tree">
+                            <li class="menu-header-title">My Dashboard</li>
+                            <li class="active"><a href="#" aria-activedescendant=""><i
+                                        class='bx bxs-dashboard'></i><span>Dashboard</span></a></li>
+                            <li><a href="#"><i class='bx bx-calendar'></i><span>Feedbacks</span></a></li>
+                            <li><a href="#"><i class='bx bx-user-x'></i><span>Leaves</span></a></li>
+                            <li><a href="#"><i class='bx bx-user-check'></i><span>Attendance</span></a></li>
+                            <li><a href="#"><i class='bx bx-calendar'></i><span>Daily Timessheet</span></a>
+                            </li>
+                            <li><a href="#"><i class='bx bxs-user-detail'></i><span>Work
+                                        Log</span></a></li>
+                            <li><a href="#"><i class='bx bx-wallet'></i><span>Reimbursements</span></a>
+                            </li>
+                            <li><a href="#"><i class='bx bxs-report'></i><span>Reports</span></a></li>
+                            <li><a href="#"><i class='bx bxs-user-pin'></i><span>My Expensee</span></a></li>
+                            <li><a href="#"><i class='bx bxs-badge-dollar'></i><span>Income</span></a></li>
+                            <li><a href="#"><i class="zmdi zmdi-widgets"></i><span>Categories</span></a></li>
+                            <li><a href="#"><i class='bx bx-cog'></i><span>Setting</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <div class="flapt-page-content">
+            <!-- Top Header Area -->
+            <header class="top-header-area d-flex align-items-center justify-content-between">
+                <div class="left-side-content-area d-flex align-items-center">
+                    <!-- Mobile Logo -->
+
+                    <div class="mobile-logo">
+                        <a href="#"><img src="./img/New icon img/smalllogo.jpg" alt="Mobile Logo"></a>
+                    </div>
+
+                    <!-- Triggers -->
+                    <div class="flapt-triggers">
+                        <div class="menu-collasped" id="menuCollasped">
+                            <span class="my_options" data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="My Options">
+                                <i class='bx bx-grid-alt'></i>
+                            </span>
+                        </div>
+                        <div class="mobile-menu-open" id="mobileMenuOpen">
+                            <i class='bx bx-grid-alt'></i>
+                        </div>
+                    </div>
+
+                    <!-- Left Side Nav -->
+                    <ul class="left-side-navbar d-flex align-items-center">
+                        <li class="hide-phone app-search">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="bx bx-search-alt"></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-side-navbar d-flex align-items-center justify-content-end">
+                    <!-- Mobile Trigger -->
+                    <div class="right-side-trigger" id="rightSideTrigger">
+                        <i class='bx bx-menu-alt-right'></i>
+                    </div>
+
+                    <!-- Top Bar Nav -->
+                    <ul class="right-side-content d-flex align-items-center">
+                        <li class="watch">00 : 03 : 20 <span class="clock-watch"><i class='bx bxs-circle text-white'
+                                    style="color: white; font-size: 10px;"></i></span></li>
+                        <li class="nav-item dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><img src="./img/bg-img/profile_image.jpg"
+                                    alt="person_1"> <span class="active-status"></span></button>
+                            <div class="dropdown-menu profile dropdown-menu-right">
+                                <!-- User Profi
+                                 le Area -->
+                                <div class="user-profile-area">
+                                    <div class="client-media-content d-flex align-items-center mb-4">
+                                        <img class="client-thumb rounded-circle mr-3"
+                                            src="./img/bg-img/profile_image.jpg" alt="person_1">
+                                        <div class="user--media-body">
+                                            <h6 class="mb-0 text-dark font-15">Himanshu</h6>
+                                            <span class="font-13">UI/UX Designer</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="dropdown-item"><i class="bx bx-user font-15"
+                                            aria-hidden="true"></i> My profile</a>
+                                    <a href="#" class="dropdown-item"><i class="bx bx-cog font-15"
+                                            aria-hidden="true"></i> Account settings</a>
+                                    <a href="#" class="dropdown-item text-danger"><i
+                                            class="bx bx-power-off text-danger font-15" aria-hidden="true"></i>
+                                        Logout</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <!-- Main page -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-4 box-margin">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="profile-thumb-contact text-center">
+                                            <div class="profile--tumb">
+                                                <img src="img/bg-img/profile_image.jpg" alt="img-1">
+                                            </div>
+                                            <h5 class="mt-15 mb-0">Himanshu Rathore</h5>
+                                            <p class="mb-0">UI/UX & WEB DESIGNER</p>
+                                            <div class="fotter-icon mt-20">
+                                                <a href="https://join.skype.com/invite/xFhhQorw1uB9"
+                                                    class="action-item mr-2" data-original-title="Skype" target="_blank">
+                                                    <i class="fa fa-skype" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="https://github.com/Himanshu-88399" class="action-item mr-2"
+                                                    data-original-title="Twitter" target="_blank">
+                                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/himanshu-rathore-72705421b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    class="action-item mr-2" target="_blank">
+                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="personal-information mt-30">
+                                            <div class="name-text">
+                                                <h6 class="font-14"><span class="text-color"><b>Email Id</b> :</span>
+                                                    hr46333@gmail.com</h6>
+                                                <hr class="my-2">
+                                                <h6 class="font-14"><span class="text-color">City :</span> Indore</h6>
+                                                <hr class="my-2">
+                                                <h6 class="font-14"><span class="text-color">Languages
+                                                        :</span>Hindi,English</h6>
+                                                <hr class="my-2">
+                                                <h6 class="font-14"><span class="text-color">Phone :</span> +91
+                                                    8839916041</h6>
+                                                <hr class="my-2">
+                                                <h6 class="font-14"><span class="text-color">Hobby :</span> Sports,
+                                                    Reading, Gradening, Watching Movies, Travelling etc</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-4">
+                                <!-- Profile contacts -->
+                                <div class="card box-margin">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="font-14 mb-0">
+                                                    <i class="fa fa-facebook mr-2 text-info"></i>Facebook
+                                                </h6>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="font-14">Himanshu.rathore1104</span>
+                                            </div>
+                                        </div>
+                                        <hr class="my-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="font-14 mb-0">
+                                                    <i class="fa fa-whatsapp mr-2 text-success"></i>Whats App
+                                                </h6>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="font-14">+91-88399-16041</span>
+                                            </div>
+                                        </div>
+                                        <hr class="my-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="font-14 mb-0">
+                                                    <i class="fa fa-instagram mr-2 text-danger"></i>Instagram
+                                                </h6>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="font-14">@Himanshu.rathore_</span>
+                                            </div>
+                                        </div>
+                                        <hr class="my-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="font-14 mb-0">
+                                                    <i class="fa fa-linkedin mr-2 text-primary"></i>LinkedIn
+                                                </h6>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="font-14">Himanshu Rathore</span>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="font-14 mb-0">
+                                                    <i class="fa fa-github mr-2 text-warning"></i>Guithub
+                                                </h6>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="font-14">Himanshu-88399</span>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="font-14 mb-0">
+                                                    <i class="fa fa-skype mr-2 text-info"></i>Skype
+                                                </h6>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="font-14">Himanshu Rathore</span>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="font-14 mb-0">
+                                                    <i class="fa fa-drupal mr-2 text-primary"></i>Drupal
+                                                </h6>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="font-14">Himanshu@1104</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card box-margin">
+                                    <div class="card-body">
+                                        <div class="profile-skills-area">
+                                            <h6 class="card-title mb-15">My Skills</h6>
+
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">HTML</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">CSS</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">BOOTSTRAP</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">JavaScript</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">GIT</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">GITHUB</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">UI</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">UX</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">FIGMA</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">ADOBE XD</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">PHOTOSHOP</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1"
+                                                href="#">ILLUSTRATION</a>
+                                            <a class="badge badge-primary badge-pill mr-1 my-1" href="#">CANVA</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card box-margin">
+                                    <div class="card-body">
+                                        <h4 class="card-title">My Close Friend List</h4>
+                                        <div class="friend-list">
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/12.png"
+                                                        alt="12"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/10.png"
+                                                        alt="10"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/11.png"
+                                                        alt="11"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/12.png"
+                                                        alt="12"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/12.png"
+                                                        alt="12"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/2.png"
+                                                        alt="2"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/4.png"
+                                                        alt="4"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/2.png"
+                                                        alt="2"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/10.png"
+                                                        alt="10"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/11.png"
+                                                        alt="11"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/12.png"
+                                                        alt="12"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/12.png"
+                                                        alt="12"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/10.png"
+                                                        alt="10"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/11.png"
+                                                        alt="11"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card box-margin">
+                                    <div class="card-body">
+                                        <h4 class="card-title">My Friend List</h4>
+                                        <div class="friend-list">
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/12.png"
+                                                        alt="12"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/2.png"
+                                                        alt="2"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/4.png"
+                                                        alt="4"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/5.png"
+                                                        alt="5"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/6.png"
+                                                        alt="6"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/7.png"
+                                                        alt="7"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img
+                                                        src="img/member-img/mail-1.jpg" alt="mail-1"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/8.png"
+                                                        alt="8"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/9.png"
+                                                        alt="9"></a>
+                                            </div>
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/4.png"
+                                                        alt=""></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/5.png"
+                                                        alt="5"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/6.png"
+                                                        alt="6"></a>
+                                            </div>
+
+                                            <div class="profile-friend-thumb">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Shari Krieger"><img src="img/member-img/7.png"
+                                                        alt="7"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-8 height-card box-margin">
+                                <div class="card">
+                                    <div class="card-header bg-white border-0">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h6 class="card-title mb-0">My Project</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table align-items-center">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="sort" data-sort="name">Project Name</th>
+                                                    <th scope="col" class="sort" data-sort="tasks">Tasks</th>
+                                                    <th scope="col" class="sort" data-sort="billing">Hours</th>
+                                                    <th scope="col">Completion</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="list">
+                                                <tr>
+                                                    <th scope="row">
+                                                        <div class="media d-flex align-items-center">
+                                                            <div>
+                                                                <img alt="" src="./img/New icon img/favicon.png"
+                                                                    class="avatar  rounded-circle avatar-sm">
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <span class="mb-0 font-16">Hotel Restaurant
+                                                                    Website</span>
+                                                            </div>
+                                                        </div>
+                                                    </th>
+
+                                                    <td class="budget">
+                                                        <span>12</span>
+                                                    </td>
+                                                    <td>
+                                                        90 h
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <span class="completion mr-2">100%</span>
+                                                            <div>
+                                                                <div class="progress h-6" style="width: 100px;">
+                                                                    <div class="progress-bar bg-primary"
+                                                                        role="progressbar" aria-valuenow="100"
+                                                                        aria-valuemin="0" aria-valuemax="100"
+                                                                        style="width: 100%;"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th scope="row">
+                                                        <div class="media d-flex align-items-center">
+                                                            <div>
+                                                                <img alt="" src="./img/New icon img/19.jpg"
+                                                                    class="avatar  rounded-circle avatar-sm">
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <span class="mb-0 font-16">E-commerce Website</span>
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="budget">
+                                                        <span>18</span>
+                                                    </td>
+                                                    <td>
+                                                        70 h
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <span class="completion mr-2">90%</span>
+                                                            <div>
+                                                                <div class="progress h-6" style="width: 90px;">
+                                                                    <div class="progress-bar bg-primary"
+                                                                        role="progressbar" aria-valuenow="90"
+                                                                        aria-valuemin="0" aria-valuemax="100"
+                                                                        style="width: 90%;"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th scope="row">
+                                                        <div class="media d-flex align-items-center">
+                                                            <div>
+                                                                <img alt="" src="./img/New icon img/giftpng.png"
+                                                                    class="avatar  rounded-circle avatar-sm">
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <span class="mb-0 font-16">Christmas Gift Website</span>
+                                                            </div>
+                                                        </div>
+                                                    </th>
+
+                                                    <td class="budget">
+                                                        <span>12</span>
+                                                    </td>
+                                                    <td>
+                                                        90 h
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <span class="completion mr-2">85%</span>
+                                                            <div>
+                                                                <div class="progress h-6" style="width: 100px;">
+                                                                    <div class="progress-bar bg-primary"
+                                                                        role="progressbar" aria-valuenow="85"
+                                                                        aria-valuemin="0" aria-valuemax="100"
+                                                                        style="width: 85%;"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th scope="row">
+                                                        <div class="media d-flex align-items-center">
+                                                            <div>
+                                                                <img alt="" src="./img/New icon img/digital.png"
+                                                                    class="avatar  rounded-circle avatar-sm">
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <span class="mb-0 font-16">Digital Marketing
+                                                                    Wesbite</span>
+                                                            </div>
+                                                        </div>
+                                                    </th>
+
+                                                    <td class="budget">
+                                                        <span>18</span>
+                                                    </td>
+                                                    <td>
+                                                        70 h
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <span class="completion mr-2">90%</span>
+                                                            <div>
+                                                                <div class="progress h-6" style="width: 90px;">
+                                                                    <div class="progress-bar bg-primary"
+                                                                        role="progressbar" aria-valuenow="90"
+                                                                        aria-valuemin="0" aria-valuemax="100"
+                                                                        style="width: 90%;"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 height-card box-margin">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">My Project URL</h4>
+                                        <div class="personal-information mt-30">
+                                            <div class="name-text">
+                                                <h6 class="font-14"><span class="text-color"><b>Hotel Restaurant Url
+                                                            Website</b> :</span>
+                                                    <a href="https://hotalresturant.netlify.app"
+                                                        style="color: black;">https://hotalresturant.netlify.app</a>
+                                                </h6>
+                                                <hr class="my-3">
+                                                <h6 class="font-14"><span class="text-color">E-commerce Website
+                                                        Url:</span>
+                                                    <a href="https://ecommercewebsite1104.netlify.app/"
+                                                        style="color: black;">https://ecommercewebsite1104.netlify.app</a>
+                                                </h6>
+                                                <hr class="my-3">
+                                                <h6 class="font-14"><span class="text-color">Christmas Gift Website Url
+                                                        : </span> <a href="https://christmasgift.netlify.app/"
+                                                        style="color: black;">https://christmasgift.netlify.app</a></h6>
+                                                <hr class="my-3">
+                                                <h6 class="font-14"><span class="text-color">Digital Marketing Wesbite
+                                                        Url
+                                                        :</span> <a href="https://digitalmarketing1104.netlify.app/"
+                                                        style="color: black;">https://digitalmarketing1104.netlify.app</a>
+                                                </h6>
+                                                <hr class="my-3">
+                                                <h6 class="font-14"><span class="text-color">Merchant club Website Url
+                                                        :</span> <a href="https://merchants-club.com"
+                                                        style="color: black;">https://merchants-club.com</a></h6>
+                                                <hr class="my-3">
+                                                <h6 class="font-14"><span class="text-color">Log In Page Url:</span> <a
+                                                        href="https://login1104.netlify.app/"
+                                                        style="color: black;">https://login1104.netlify.app</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 height-card box-margin">
+                                <!-- Project status -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6 class="card-title">My Project status</h6>
+                                        <div class="row mb-3">
+                                            <div class="col-9">
+                                                <div class="progress-wrapper">
+                                                    <span class="progress-label text-dark">Website design</span>
+                                                    <div class="progress mt-2 mb-2" style="height: 5px;">
+                                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 90%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3 align-self-end text-right">
+                                                <span class="text-dark mb-0">90%</span>
+                                            </div>
+                                        </div>
+                                        <hr class="my-3">
+                                        <div class="row mb-3">
+                                            <div class="col-9">
+                                                <div class="progress-wrapper">
+                                                    <span class="progress-label text-dark">Website Markup</span>
+                                                    <div class="progress mt-2 mb-2" style="height: 5px;">
+                                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                            aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 72%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3 align-self-end text-right">
+                                                <span class="text-dark mb-0">72%</span>
+                                            </div>
+                                        </div>
+                                        <hr class="my-3">
+                                        <div class="row mb-3">
+                                            <div class="col-9">
+                                                <div class="progress-wrapper">
+                                                    <span class="progress-label text-dark">One Landing page</span>
+                                                    <div class="progress mt-2 mb-2" style="height: 5px;">
+                                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                            aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 89%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3 align-self-end text-right">
+                                                <span class="text-dark mb-0">89%</span>
+                                            </div>
+                                        </div>
+                                        <hr class="my-3">
+                                        <div class="row mb-3">
+                                            <div class="col-9">
+                                                <div class="progress-wrapper">
+                                                    <span class="progress-label text-dark">Mobile Template</span>
+                                                    <div class="progress mt-2 mb-2" style="height: 5px;">
+                                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                            aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 55%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3 align-self-end text-right">
+                                                <span class="text-dark mb-0">55%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-4 height-card box-margin">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="bg-transparent d-flex align-items-center justify-content-between">
+                                            <div class="widgets-card-title">
+                                                <h5 class="card-title">My Recent Project files</h5>
+                                            </div>
+                                        </div>
+                                        <!-- Single Download File -->
+                                        <div
+                                            class="widget-download-file d-flex align-items-center justify-content-between mb-4">
+                                            <div class="d-flex align-items-center mr-3">
+                                                <div class="download-file-icon mr-3">
+                                                    <img src="img/filemanager-img/1.png" alt="1">
+                                                </div>
+                                                <div class="user-text-table">
+                                                    <h6 class="d-inline-block font-14 mb-0">File</h6>
+                                                    <p class="mb-0 font-13">Log in form</p>
+                                                </div>
+                                            </div>
+                                            <a href="#"
+                                                class="download-link badge badge-primary badge-pill">Download</a>
+                                        </div>
+                                        <hr class="my-3">
+
+                                        <!-- Single Download File -->
+                                        <div
+                                            class="widget-download-file d-flex align-items-center justify-content-between mb-4">
+                                            <div class="d-flex align-items-center mr-3">
+                                                <div class="download-file-icon mr-3">
+                                                    <img src="img/filemanager-img/5.png" alt="5">
+                                                </div>
+                                                <div class="user-text-table">
+                                                    <h6 class="d-inline-block font-14 mb-0">File</h6>
+                                                    <p class="mb-0 font-13">Hotel Restaurant</p>
+                                                </div>
+                                            </div>
+                                            <a href="#"
+                                                class="download-link badge badge-primary badge-pill">Download</a>
+                                        </div>
+                                        <hr class="my-3">
+
+                                        <!-- Single Download File -->
+                                        <div
+                                            class="widget-download-file d-flex align-items-center justify-content-between mb-4">
+                                            <div class="d-flex align-items-center mr-3">
+                                                <div class="download-file-icon mr-3">
+                                                    <img src="img/filemanager-img/6.png" alt="6">
+                                                </div>
+                                                <div class="user-text-table">
+                                                    <h6 class="d-inline-block font-14 mb-0">File</h6>
+                                                    <p class="mb-0 font-13">E-commerce</p>
+                                                </div>
+                                            </div>
+                                            <a href="#"
+                                                class="download-link badge badge-primary badge-pill">Download</a>
+                                        </div>
+                                        <hr class="my-3">
+
+                                        <!-- Single Download File -->
+                                        <div
+                                            class="widget-download-file d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center mr-3">
+                                                <div class="download-file-icon mr-3">
+                                                    <img src="img/filemanager-img/7.png" alt="7">
+                                                </div>
+                                                <div class="user-text-table">
+                                                    <h6 class="d-inline-block font-14 mb-0">File</h6>
+                                                    <p class="mb-0 font-13">Christmas Gift</p>
+                                                </div>
+                                            </div>
+                                            <a href="#"
+                                                class="download-link badge badge-primary badge-pill">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-4 height-card box-margin">
+                                <div class="card">
+                                    <div class="card-body pb-0">
+                                        <div
+                                            class="card-title bg-transparent d-flex align-items-center justify-content-between">
+                                            <div class="widgets-card-title">
+                                                <h5 class="card-title mb-0">My New Clients</h5>
+                                            </div>
+                                        </div>
+                                        <div class="user-card-body">
+                                            <div class="client-media-content d-flex align-items-center mb-4">
+                                                <img class="client-thumb rounded-circle mr-3"
+                                                    src="img/member-img/contact-1.jpg" alt="contact-1">
+                                                <div class="user--media-body">
+                                                    <h6 class="mb-0 text-dark font-15">Hello Dolly</h6>
+                                                    <span class="font-13">hellodolly@example.com</span>
+                                                </div>
+                                            </div>
+                                            <hr class="my-3">
+                                            <div class="client-media-content d-flex align-items-center mb-4">
+                                                <img class="client-thumb rounded-circle mr-3"
+                                                    src="img/member-img/contact-2.jpg" alt="contact-2">
+                                                <div class="user--media-body">
+                                                    <h6 class="mb-0 text-dark font-15">John Doe</h6>
+                                                    <span class="font-13">john_doe@example.com</span>
+                                                </div>
+                                            </div>
+                                            <hr class="my-3">
+                                            <div class="client-media-content d-flex align-items-center mb-4">
+                                                <img class="client-thumb rounded-circle mr-3"
+                                                    src="img/member-img/contact-3.jpg" alt="contact-3">
+                                                <div class="user--media-body">
+                                                    <h6 class="mb-0 text-dark font-15">Mir Jahan</h6>
+                                                    <span class="font-13">mirjahan@example.com</span>
+                                                </div>
+                                            </div>
+                                            <hr class="my-3">
+                                            <div class="client-media-content d-flex align-items-center mb-4">
+                                                <img class="client-thumb rounded-circle mr-3"
+                                                    src="img/member-img/contact-4.jpg" alt="contact-4">
+                                                <div class="user--media-body">
+                                                    <h6 class="mb-0 text-dark font-15">Doe Sunil</h6>
+                                                    <span class="font-13">doesunil@example.com</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Footer Area -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+
+
+                                <!-- Footer Area -->
+                                <footer class="footer-area d-flex justify-content-center align-items-center">
+                                    <!-- Copywrite Text -->
+                                    <div class="copywrite-text">
+                                        <p>Created by @<a href="#">Himanshu Rathore 2024</a></p>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================
+    ********* Page Wrapper Area End ***********
+    ======================================= -->
+
+    <!-- Plugins Js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bundle.js"></script>
+
+    <!-- Active JS -->
+    <script src="js/scrool-bar.js"></script>
+    <script src="js/default-assets/active.js"></script>
+
+    <!-- Inject JS -->
+    <script src="js/default-assets/am-chart.js"></script>
+    <script src="js/default-assets/serial.js"></script>
+    <script src="js/default-assets/ammap.min.js"></script>
+    <script src="js/default-assets/radar.js"></script>
+    <script src="js/default-assets/widget-page-chart-active.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>
